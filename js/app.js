@@ -68,11 +68,13 @@ var App = function () {
         // if (process.argv.includes("paul")) {
         //     var configFilename = path.resolve(`${global.root_path}/config/config.paul.js`);
         // }
-        // if (process.argv.includes("anthony")) {
+        // if () {
         //     var configFilename = path.resolve(`${global.root_path}/config/config.acasaro.js`);
         // } else {
         // }
-        var configFilename = path.resolve(`${global.root_path}/config/config.dev.js`);
+        var configFilename = process.argv.includes("dev")
+            ? path.resolve(`${global.root_path}/config/config.dev.js`)
+            : path.resolve(`${global.root_path}/config/config.js`);
 
         if (typeof global.configuration_file !== "undefined") {
             configFilename = path.resolve(global.configuration_file);
