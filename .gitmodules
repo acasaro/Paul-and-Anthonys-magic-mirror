@@ -1,0 +1,9 @@
+[submodule "modules/MMM-GoogleMapsTraffic"]
+	path = modules/MMM-GoogleMapsTraffic
+	url = https://github.com/vicmora/MMM-GoogleMapsTraffic.git
+[submodule "modules/MMM-Traffic"]
+	path = modules/MMM-Traffic
+	url = https://github.com/SamLewis0602/MMM-Traffic.git
+[submodule "modules/MMM-MyScoreboard"]
+	path = modules/MMM-MyScoreboard
+	url = https://github.com/jclarke0000/MMM-MyScoreboard.git
